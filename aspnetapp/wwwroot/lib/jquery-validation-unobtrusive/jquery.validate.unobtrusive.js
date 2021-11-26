@@ -17,7 +17,8 @@
         // Browser global
         jQuery.validator.unobtrusive = factory(jQuery);
     }
-}(function ($) {
+}(function ($) { //NOSONAR
+// TO DO Refactor this function to reduce its Cognitive Complexity from 77 to the 15 allowed.
     var $jQval = $.validator,
         adapters,
         data_validation = "unobtrusiveValidation";
